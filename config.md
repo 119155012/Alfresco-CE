@@ -28,7 +28,7 @@ vi /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/share-docum
 
 ## Replace document preview to metadata and disable comments
 ```
-vi /webapps/share/WEB-INF/classes/alfresco/templates/org/alfresco/document-details.ftl
+vi /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/templates/org/alfresco/document-details.ftl
 
 <!-- replace id="web-preview" to id="document-metadata" -->
 <div class="yui-gc"> 
