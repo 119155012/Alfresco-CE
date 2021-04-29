@@ -1,4 +1,4 @@
-## Disable file thumbnails
+ - ## Disable file thumbnails
 ```
 vi /opt/bitnami/apache-tomcat/shared/classes/alfresco-global.properties
 
@@ -7,7 +7,7 @@ system.thumbnail.generate = false
 
 ---
 
-## Disable file quickshare
+ - ## Disable file quickshare
 ```
 vi /opt/bitnami/apache-tomcat/shared/classes/alfresco-global.properties
 
@@ -16,7 +16,7 @@ system.quickshare.enabled = false
 
 ---
 
-## Disable document library page social(Favorite/Like/Comment) line
+ - ## Disable document library page social(Favorite/Like/Comment) line
 ```
 vi /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/share-documentlibrary-config.xml
 
@@ -26,7 +26,7 @@ vi /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/share-docum
 
 ---
 
-## Replace document preview to metadata and disable comments
+ - ## Replace document preview to metadata and disable comments
 ```
 vi /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/templates/org/alfresco/document-details.ftl
 
