@@ -49,8 +49,7 @@ vim /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/templates/
  - ## Block non PDF file types upload
 ### Create a "block_type.js" below and upload to Repository / Data Dictionary / Scripts
 ```
-function main()
-{
+function main() {
   var name = document.name;
   var siteName = document.siteShortName;
   var parent = document.parent;
@@ -58,7 +57,6 @@ function main()
 
   if (ext !== 'pdf')
     throw "Unsupported file format. PDF and ZIP files are not supported at this time. File name:  " + name + ", Site Name: "  + siteName;
-
 }
 
 main();
