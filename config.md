@@ -65,3 +65,17 @@ main();
 ![https://atechref.com/block-uploads-of-certain-file-type-to-sites-and-folders-in-alfresco-5-x/](https://user-images.githubusercontent.com/16496285/116969634-2ef38200-ace9-11eb-888e-002376d33531.png)
 
 [https://atechref.com/block-uploads-of-certain-file-type-to-sites-and-folders-in-alfresco-5-x/](https://atechref.com/block-uploads-of-certain-file-type-to-sites-and-folders-in-alfresco-5-x/)
+
+---
+
+ - ## Customize title and logo of login page
+```
+Replace .svg in the path:
+/opt/bitnami/apache-tomcat/webapps/share/themes/[depends_on_your_theme]/images/alfresco.svg
+```
+```
+vim /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/messages/slingshot_en.properties
+
+app.name=DMS
+app.community=
+```
