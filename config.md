@@ -80,7 +80,6 @@ app.name=DMS
 app.community=
 ```
 
-
 ---
 
  - ## Customize background-color of login page
@@ -91,4 +90,12 @@ body.UNKNOWN
 {
   background-color: #0c79bf;
 }
+```
+
+---
+
+ - ## Customize footer logo after login page
+```
+Replace .svg in the path:
+/opt/bitnami/apache-tomcat/webapps/share/components/images/alfresco-logo.svg
 ```
