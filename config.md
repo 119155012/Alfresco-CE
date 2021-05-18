@@ -79,3 +79,16 @@ vim /opt/bitnami/apache-tomcat/webapps/share/WEB-INF/classes/alfresco/messages/s
 app.name=DMS
 app.community=
 ```
+
+
+---
+
+ - ## Customize background-color of login page
+```
+vim /opt/bitnami/apache-tomcat/webapps/share/themes/[depends_on_your_theme]/presentation.css
+
+body.UNKNOWN
+{
+  background-color: #0c79bf;
+}
+```
